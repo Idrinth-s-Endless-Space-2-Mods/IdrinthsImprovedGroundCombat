@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="StarSystemImprovementFightSizePlanetCountLimitation" Type="StarSystemImprovement" TooltipHidden="true">
+        <Modifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Percent" Value="-1" SearchValueFromPath="true"/>
+        <Modifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Percent" Value="-1" SearchValueFromPath="true"/>
+        <Modifier Path="./ClassColonizedStarSystem" TargetProperty="MaximumSystemManpower" Operation="Percent" Value="-0.5" SearchValueFromPath="true"/>
+
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="0.20" Right="${OwnedPlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="0.20" Right="${OwnedPlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="MaximumSystemManpower" Operation="Percent" BinaryOperation="Multiplication" Left="0.15" Right="${OwnedPlanets}" SearchValueFromPath="true"/>
+
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="0.015" Right="${OwnedMoons}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="0.015" Right="${OwnedMoons}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="MaximumSystemManpower" Operation="Percent" BinaryOperation="Multiplication" Left="0.015" Right="${OwnedMoons}" SearchValueFromPath="true"/>
+
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="0.025" Right="${OwnedHugePlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="0.025" Right="${OwnedHugePlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="MaximumSystemManpower" Operation="Percent" BinaryOperation="Multiplication" Left="0.025" Right="${OwnedHugePlanets}" SearchValueFromPath="true"/>
+
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="0.01" Right="${OwnedLargePlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="0.01" Right="${OwnedLargePlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="MaximumSystemManpower" Operation="Percent" BinaryOperation="Multiplication" Left="0.01" Right="${OwnedLargePlanets}" SearchValueFromPath="true"/>
+
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="-0.01" Right="${OwnedColdPlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="-0.01" Right="${OwnedColdPlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="MaximumSystemManpower" Operation="Percent" BinaryOperation="Multiplication" Left="-0.01" Right="${OwnedColdPlanets}" SearchValueFromPath="true"/>
+
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="-0.01" Right="${OwnedHotPlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="-0.01" Right="${OwnedHotPlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="MaximumSystemManpower" Operation="Percent" BinaryOperation="Multiplication" Left="-0.01" Right="${OwnedHotPlanets}" SearchValueFromPath="true"/>
+
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="-0.025" Right="${OwnedGasPlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="-0.025" Right="${OwnedGasPlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="MaximumSystemManpower" Operation="Percent" BinaryOperation="Multiplication" Left="-0.025" Right="${OwnedGasPlanets}" SearchValueFromPath="true"/>
+
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderTroopsMaxDamageMultiplier" Operation="Percent" BinaryOperation="Multiplication" Left="0.05" Right="${OwnedMeagerPlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderTroopsMaxDamageMultiplier" Operation="Percent" BinaryOperation="Multiplication" Left="0.025" Right="${OwnedGasPlanets}" SearchValueFromPath="true"/>
+
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderTroopsMaxHealthMultiplier" Operation="Percent" BinaryOperation="Multiplication" Left="0.05" Right="${OwnedTeemingPlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderTroopsMaxHealthMultiplier" Operation="Percent" BinaryOperation="Multiplication" Left="0.025" Right="${OwnedGasPlanets}" SearchValueFromPath="true"/>
+    </SimulationDescriptor>
+</Datatable>
