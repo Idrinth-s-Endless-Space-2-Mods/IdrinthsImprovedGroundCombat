@@ -25,11 +25,27 @@ This is a very early release, feel free to help out at https://github.com/Idrint
             <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
                 <FilePath>Simulation/SimulationDescriptors[Idrinth][*].xml</FilePath>
             </DatabasePlugin>
+            <DatabasePlugin DataType="EmpireImprovementDefinition, Assembly-CSharp">
+                <FilePath>Simulation/EmpireImprovements[Idrinth].xml</FilePath>
+            </DatabasePlugin>
             <DatabasePlugin DataType="IndustryConstructibleElement, Assembly-CSharp">
                 <ExtraTypes>
                     <ExtraType DataType="StarSystemImprovementDefinition, Assembly-CSharp"/>
                 </ExtraTypes>
-                <FilePath>Simulation/ConstructibleElement[Idrinth][*].xml</FilePath>
+                <FilePath>Simulation/ConstructibleElement[Idrinth][Industry][*].xml</FilePath>
+            </DatabasePlugin>
+            <DatabasePlugin DataType="ScienceConstructibleElement, Assembly-CSharp">
+              <ExtraTypes>
+                <ExtraType DataType="TechnologyDefinition, Assembly-CSharp"/>
+              </ExtraTypes>
+              <FilePath>Simulation/ScienceConstructibleElement[Idrinth][*].xml</FilePath>
+            </DatabasePlugin>
+            <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass"  Priority="20">
+                <ExtraTypes>
+                    <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass"/>
+                    <ExtraType DataType="TechnologyGuiElement2, Assembly-CSharp"/>
+                </ExtraTypes>
+                <FilePath>Gui/GuiElements[Idrinth][*].xml</FilePath>
             </DatabasePlugin>
         </Plugins>
     </RuntimeModule>

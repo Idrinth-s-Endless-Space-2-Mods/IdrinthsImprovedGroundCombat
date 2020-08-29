@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    <TechnologyGuiElement2 Name="TechnologyDefinitionMassProducedInfantry" X="0" Y="0">
+        <Title>%TechnologyDefinitionMassProducedInfantryTitle</Title>
+        <Description>%TechnologyDefinitionMassProducedInfantryDescription</Description>
+    </TechnologyGuiElement2>
+    <TechnologyGuiElement2 Name="TechnologyDefinitionHighlyArmoredInfantry" X="-1.5" Y="0">
+        <Title>%TechnologyDefinitionHighlyArmoredInfantryTitle</Title>
+        <Description>%TechnologyDefinitionHighlyArmoredInfantryDescription</Description>
+    </TechnologyGuiElement2>
+    <TechnologyGuiElement2 Name="TechnologyDefinitionExperimentalWeaponry" X="3.5" Y="0">
+        <Title>%TechnologyDefinitionExperimentalWeaponryTitle</Title>
+        <Description>%TechnologyDefinitionExperimentalWeaponryDescription</Description>
+    </TechnologyGuiElement2>
+</Datatable>

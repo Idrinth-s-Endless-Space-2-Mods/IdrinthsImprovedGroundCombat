@@ -3,7 +3,7 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
     <SimulationDescriptor Name="StarSystemImprovementFightSizePlanetCountLimitation" Type="StarSystemImprovement" TooltipHidden="true">
         <Modifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Percent" Value="-1" SearchValueFromPath="true"/>
-        <Modifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Percent" Value="-1" SearchValueFromPath="true"/>
+        <Modifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderManpowerLimit" Operation="Percent" Value="-1" SearchValueFromPath="true"/>
         <Modifier Path="./ClassColonizedStarSystem" TargetProperty="MaximumSystemManpower" Operation="Percent" Value="-0.5" SearchValueFromPath="true"/>
 
         <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="0.20" Right="${OwnedPlanets}" SearchValueFromPath="true"/>

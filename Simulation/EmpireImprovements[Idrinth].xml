@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/EmpireImprovementDefinition.xsd">
+    <EmpireImprovementDefinition Name="EmpireImprovementTechnologyMassProducedInfantry" Category="CategoryEmpireImprovement">
+        <TechnologyPrerequisite>TechnologyMassProducedInfantry</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementTechnologyMassProducedInfantry" />
+    </EmpireImprovementDefinition>
+    <EmpireImprovementDefinition Name="EmpireImprovementTechnologyHighlyArmoredInfantry" Category="CategoryEmpireImprovement">
+        <TechnologyPrerequisite>TechnologyHighlyArmoredInfantry</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementTechnologyHighlyArmoredInfantry" />
+    </EmpireImprovementDefinition>
+    <EmpireImprovementDefinition Name="EmpireImprovementTechnologyExperimentalWeaponry" Category="CategoryEmpireImprovement">
+        <TechnologyPrerequisite>TechnologyExperimentalWeaponry</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementTechnologyExperimentalWeaponry" />
+    </EmpireImprovementDefinition>
+</Datatable>
