@@ -2,7 +2,7 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/ScienceConstructibleElement.xsd">
   <TechnologyDefinition Name="TechnologyDefinitionMassProducedInfantry" TechnologyStage="TechnologyStageDefinitionMilitary2" Category="CategoryTechnologyMilitary" SubCategoryInQuests="TechnoMilitary" ScoreProvider="TechnologyUnlocked">
         <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage1Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantMilitaryMultiplier)</CustomCost>
-        <!--<SimulationDescriptorReference Name="TechnologyMassProducedInfantry"/>-->
+        <SimulationDescriptorReference Name="TechnologyMassProducedInfantry"/>
         <SimulationDescriptorReference Name="TechnologyCountMilitaryIncreaseStage2"/>
         <SimulationDescriptorReference Name="TechnologyCounter"/>
         <PopulationEvent Name="PopulationPoliticalEventMilitaristTechnology"/>
@@ -13,7 +13,7 @@
     </TechnologyDefinition>
     <TechnologyDefinition Name="TechnologyDefinitionHighlyArmoredInfantry" TechnologyStage="TechnologyStageDefinitionMilitary3" Category="CategoryTechnologyMilitary" SubCategoryInQuests="TechnoMilitary" ScoreProvider="TechnologyUnlocked">
         <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage1Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantMilitaryMultiplier)</CustomCost>
-        <!--<SimulationDescriptorReference Name="TechnologyHighlyArmoredInfantry"/>-->
+        <SimulationDescriptorReference Name="TechnologyHighlyArmoredInfantry"/>
         <SimulationDescriptorReference Name="TechnologyCountMilitaryIncreaseStage3"/>
         <SimulationDescriptorReference Name="TechnologyCounter"/>
         <PopulationEvent Name="PopulationPoliticalEventMilitaristTechnology"/>
@@ -24,7 +24,7 @@
     </TechnologyDefinition>
     <TechnologyDefinition Name="TechnologyDefinitionExperimentalWeaponry" TechnologyStage="TechnologyStageDefinitionMilitary4" Category="CategoryTechnologyMilitary" SubCategoryInQuests="TechnoMilitary" ScoreProvider="TechnologyUnlocked">
         <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage1Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantMilitaryMultiplier)</CustomCost>
-        <!--<SimulationDescriptorReference Name="TechnologyExperimentalWeaponry"/>-->
+        <SimulationDescriptorReference Name="TechnologyExperimentalWeaponry"/>
         <SimulationDescriptorReference Name="TechnologyCountMilitaryIncreaseStage4"/>
         <SimulationDescriptorReference Name="TechnologyCounter"/>
         <PopulationEvent Name="PopulationPoliticalEventMilitaristTechnology"/>

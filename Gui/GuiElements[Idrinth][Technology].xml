@@ -4,7 +4,7 @@
         <Title>%TechnologyDefinitionMassProducedInfantryTitle</Title>
         <Description>%TechnologyDefinitionMassProducedInfantryDescription</Description>
     </TechnologyGuiElement2>
-    <TechnologyGuiElement2 Name="TechnologyDefinitionHighlyArmoredInfantry" X="-1.5" Y="0">
+    <TechnologyGuiElement2 Name="TechnologyDefinitionHighlyArmoredInfantry" X="-1.8" Y="0">
         <Title>%TechnologyDefinitionHighlyArmoredInfantryTitle</Title>
         <Description>%TechnologyDefinitionHighlyArmoredInfantryDescription</Description>
     </TechnologyGuiElement2>

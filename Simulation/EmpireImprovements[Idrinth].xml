@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/EmpireImprovementDefinition.xsd">
-    <EmpireImprovementDefinition Name="EmpireImprovementTechnologyMassProducedInfantry" Category="CategoryEmpireImprovement">
-        <TechnologyPrerequisite>TechnologyMassProducedInfantry</TechnologyPrerequisite>
-        <SimulationDescriptorReference Name="EmpireImprovementTechnologyMassProducedInfantry" />
+    <EmpireImprovementDefinition Name="EmpireImprovementMassProducedInfantry" Category="CategoryTroop" SubCategory="SubCategoryMilitary">
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyMassProducedInfantry</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementMassProducedInfantry" />
     </EmpireImprovementDefinition>
-    <EmpireImprovementDefinition Name="EmpireImprovementTechnologyHighlyArmoredInfantry" Category="CategoryEmpireImprovement">
-        <TechnologyPrerequisite>TechnologyHighlyArmoredInfantry</TechnologyPrerequisite>
-        <SimulationDescriptorReference Name="EmpireImprovementTechnologyHighlyArmoredInfantry" />
+    <EmpireImprovementDefinition Name="EmpireImprovementHighlyArmoredInfantry" Category="CategoryTroop" SubCategory="SubCategoryMilitary">
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyHighlyArmoredInfantry</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementHighlyArmoredInfantry" />
     </EmpireImprovementDefinition>
-    <EmpireImprovementDefinition Name="EmpireImprovementTechnologyExperimentalWeaponry" Category="CategoryEmpireImprovement">
-        <TechnologyPrerequisite>TechnologyExperimentalWeaponry</TechnologyPrerequisite>
-        <SimulationDescriptorReference Name="EmpireImprovementTechnologyExperimentalWeaponry" />
+    <EmpireImprovementDefinition Name="EmpireImprovementExperimentalWeaponry" Category="CategoryTroop" SubCategory="SubCategoryMilitary">
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyExperimentalWeaponry</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementExperimentalWeaponry" />
     </EmpireImprovementDefinition>
 </Datatable>

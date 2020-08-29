@@ -19,7 +19,7 @@ This is a very early release, feel free to help out at https://github.com/Idrint
         <ReleaseNotes></ReleaseNotes>
 
         <!-- Available tags: AI, Art, Buildings, Gameplay, Improvements, MajorFactions, Maps, MinorFactions, Multiplayer, Other, Resources, Technologies, Units. -->
-        <Tags>Gameplay, Other</Tags>
+        <Tags>Gameplay, Units, Other</Tags>
 
         <Plugins>
             <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
