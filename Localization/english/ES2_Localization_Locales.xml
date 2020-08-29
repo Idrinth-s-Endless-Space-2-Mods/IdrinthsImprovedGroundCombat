@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LocalizationPair Name="%TechnologyDefinitionMassProducedInfantryTitle">Massproduced Infantrysupport</LocalizationPair>
+  <LocalizationPair Name="%TechnologyDefinitionMassProducedInfantryDescription">Increases amount of Infantry per Manpower</LocalizationPair>
+  <LocalizationPair Name="%TechnologyDefinitionHighlyArmoredInfantryTitle">Armored Infantry</LocalizationPair>
+  <LocalizationPair Name="%TechnologyDefinitionHighlyArmoredInfantryDescription">Advancements in personal protection turned to 11.</LocalizationPair>
+  <LocalizationPair Name="%TechnologyDefinitionExperimentalWeaponryTitle">Experimental Weaponry</LocalizationPair>
+  <LocalizationPair Name="%TechnologyDefinitionExperimentalWeaponryDescription">At the price of reliability these units are superiour to units of the same type.</LocalizationPair>
+</Datatable>

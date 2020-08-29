@@ -47,6 +47,9 @@ This is a very early release, feel free to help out at https://github.com/Idrint
                 </ExtraTypes>
                 <FilePath>Gui/GuiElements[Idrinth][*].xml</FilePath>
             </DatabasePlugin>
+            <LocalizationPlugin DefaultLanguage="english">
+                <Directory>Localization</Directory>
+            </LocalizationPlugin>
         </Plugins>
     </RuntimeModule>
 </Datatable>
