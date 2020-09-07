@@ -34,10 +34,10 @@
         <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderManpowerLimit" Operation="Percent" BinaryOperation="Multiplication" Left="-0.025" Right="${OwnedGasPlanets}" SearchValueFromPath="true"/>
         <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="MaximumSystemManpower" Operation="Percent" BinaryOperation="Multiplication" Left="-0.025" Right="${OwnedGasPlanets}" SearchValueFromPath="true"/>
 
-        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderTroopsMaxDamageMultiplier" Operation="Percent" BinaryOperation="Multiplication" Left="0.05" Right="${OwnedMeagerPlanets}" SearchValueFromPath="true"/>
-        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderTroopsMaxDamageMultiplier" Operation="Percent" BinaryOperation="Multiplication" Left="0.025" Right="${OwnedGasPlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderTroopsMaxDamageMultiplier" Operation="Addition" BinaryOperation="Multiplication" Left="0.05" Right="${OwnedMeagerPlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderTroopsMaxDamageMultiplier" Operation="Addition" BinaryOperation="Multiplication" Left="0.025" Right="${OwnedGasPlanets}" SearchValueFromPath="true"/>
 
-        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderTroopsMaxHealthMultiplier" Operation="Percent" BinaryOperation="Multiplication" Left="0.05" Right="${OwnedTeemingPlanets}" SearchValueFromPath="true"/>
-        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderTroopsMaxHealthMultiplier" Operation="Percent" BinaryOperation="Multiplication" Left="0.025" Right="${OwnedGasPlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderTroopsMaxHealthMultiplier" Operation="Addition" BinaryOperation="Multiplication" Left="0.05" Right="${OwnedTeemingPlanets}" SearchValueFromPath="true"/>
+        <BinaryModifier Path="./ClassColonizedStarSystem" TargetProperty="GroundBattleDefenderTroopsMaxHealthMultiplier" Operation="Addition" BinaryOperation="Multiplication" Left="0.025" Right="${OwnedGasPlanets}" SearchValueFromPath="true"/>
     </SimulationDescriptor>
 </Datatable>
