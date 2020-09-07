@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/QuestDefinition.xsd">
+    <QuestDefinition Name="QuestIdrinthEmpireTraitBaseModifier" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextMulti/>
+        <RepetitionRules NumberOfOccurrencesPerGame="1"/>
+        <Vars>
+            <Var IsGlobal="true" VarName="$LivingEmpires">
+                <From Source="$Participants"/>
+            </Var>
+            <Var VarName="$Effect" StringValue="StarSystemImprovementFightSizePlanetCountLimitation"/>
+        </Vars>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_ApplyDescriptor LogAction="true">
+                                <Input_DescriptorName VarName="$Effect"/>
+                                <Input_Targets VarName="$LivingEmpires"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+</Datatable>

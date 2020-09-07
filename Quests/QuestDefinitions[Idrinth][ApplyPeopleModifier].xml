@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/QuestDefinition.xsd">
+    <QuestDefinition Name="QuestIdrinthEmpireTraitCraverAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var VarName="$Effect" StringValue="VisualAffinityCravers"/>
+        </Vars>
+        <Prerequisites Target="$(Empire)">
+            <PathPrerequisite Flags="Prerequisite">ClassEmpire, AffinityMappingCravers</PathPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_ApplyDescriptor LogAction="true">
+                                <Input_DescriptorName VarName="$Effect"/>
+                                <Input_Targets VarName="$CurrentEmpire"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireTraitSophonsAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var VarName="$Effect" StringValue="VisualAffinitySophons"/>
+        </Vars>
+        <Prerequisites Target="$(Empire)">
+            <PathPrerequisite Flags="Prerequisite">ClassEmpire, AffinityMappingSophons</PathPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_ApplyDescriptor LogAction="true">
+                                <Input_DescriptorName VarName="$Effect"/>
+                                <Input_Targets VarName="$CurrentEmpire"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireTraitTerransAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var VarName="$Effect" StringValue="VisualAffinityTerrans"/>
+        </Vars>
+        <Prerequisites Target="$(Empire)">
+            <PathPrerequisite Flags="Prerequisite">ClassEmpire, AffinityMappingTerrans</PathPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_ApplyDescriptor LogAction="true">
+                                <Input_DescriptorName VarName="$Effect"/>
+                                <Input_Targets VarName="$CurrentEmpire"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireTraitHoratioAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var VarName="$Effect" StringValue="VisualAffinityHoratio"/>
+        </Vars>
+        <Prerequisites Target="$(Empire)">
+            <PathPrerequisite Flags="Prerequisite">ClassEmpire, AffinityMappingHoratio</PathPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_ApplyDescriptor LogAction="true">
+                                <Input_DescriptorName VarName="$Effect"/>
+                                <Input_Targets VarName="$CurrentEmpire"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireTraitVampirilisAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var VarName="$Effect" StringValue="VisualAffinityVampirilis"/>
+        </Vars>
+        <Prerequisites Target="$(Empire)">
+            <PathPrerequisite Flags="Prerequisite">ClassEmpire, AffinityMappingVampirilis</PathPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_ApplyDescriptor LogAction="true">
+                                <Input_DescriptorName VarName="$Effect"/>
+                                <Input_Targets VarName="$CurrentEmpire"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireTraitVenetiansAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var VarName="$Effect" StringValue="VisualAffinityVenetians"/>
+        </Vars>
+        <Prerequisites Target="$(Empire)">
+            <PathPrerequisite Flags="Prerequisite">ClassEmpire, AffinityMappingVenetians</PathPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_ApplyDescriptor LogAction="true">
+                                <Input_DescriptorName VarName="$Effect"/>
+                                <Input_Targets VarName="$CurrentEmpire"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireTraitTimeLordsAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var VarName="$Effect" StringValue="VisualAffinityTimeLords"/>
+        </Vars>
+        <Prerequisites Target="$(Empire)">
+            <PathPrerequisite Flags="Prerequisite">ClassEmpire, AffinityMappingTimeLords</PathPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_ApplyDescriptor LogAction="true">
+                                <Input_DescriptorName VarName="$Effect"/>
+                                <Input_Targets VarName="$CurrentEmpire"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireTraitUnfallenAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var VarName="$Effect" StringValue="VisualAffinityUnfallen"/>
+        </Vars>
+        <Prerequisites Target="$(Empire)">
+            <PathPrerequisite Flags="Prerequisite">ClassEmpire, AffinityMappingUnfallen</PathPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_ApplyDescriptor LogAction="true">
+                                <Input_DescriptorName VarName="$Effect"/>
+                                <Input_Targets VarName="$CurrentEmpire"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireTraitVaultersAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var VarName="$Effect" StringValue="VisualAffinityVaulters"/>
+        </Vars>
+        <Prerequisites Target="$(Empire)">
+            <PathPrerequisite Flags="Prerequisite">ClassEmpire, AffinityMappingVaulters</PathPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_ApplyDescriptor LogAction="true">
+                                <Input_DescriptorName VarName="$Effect"/>
+                                <Input_Targets VarName="$CurrentEmpire"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireTraitMajorHisshosAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var VarName="$Effect" StringValue="VisualAffinityMajorHisshos"/>
+        </Vars>
+        <Prerequisites Target="$(Empire)">
+            <PathPrerequisite Flags="Prerequisite">ClassEmpire, AffinityMappingMajorHisshos</PathPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_ApplyDescriptor LogAction="true">
+                                <Input_DescriptorName VarName="$Effect"/>
+                                <Input_Targets VarName="$CurrentEmpire"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireTraitUmbralChoirAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var VarName="$Effect" StringValue="VisualAffinityUmbralChoir"/>
+        </Vars>
+        <Prerequisites Target="$(Empire)">
+            <PathPrerequisite Flags="Prerequisite">ClassEmpire, AffinityMappingUmbralChoir</PathPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_ApplyDescriptor LogAction="true">
+                                <Input_DescriptorName VarName="$Effect"/>
+                                <Input_Targets VarName="$CurrentEmpire"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireTraitTemplarsAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <Vars>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+            <Var VarName="$Effect" StringValue="VisualAffinityTemplars"/>
+        </Vars>
+        <Prerequisites Target="$(Empire)">
+            <PathPrerequisite Flags="Prerequisite">ClassEmpire, AffinityMappingTemplars</PathPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_ApplyDescriptor LogAction="true">
+                                <Input_DescriptorName VarName="$Effect"/>
+                                <Input_Targets VarName="$CurrentEmpire"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+</Datatable>
