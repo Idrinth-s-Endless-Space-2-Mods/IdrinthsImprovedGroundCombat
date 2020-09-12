@@ -177,6 +177,7 @@
                 <From Source="$Empire"/>
             </Var>
             <Var VarName="$Effect" StringValue="VisualAffinityTimeLords"/>
+            <Var VarName="$Effect2" StringValue="StarSystemImprovementFightSizePlanetCountLimitationTimelords"/>
         </Vars>
         <Prerequisites Target="$(Empire)">
             <PathPrerequisite Flags="Prerequisite">ClassEmpire, AffinityMappingTimeLords</PathPrerequisite>
@@ -188,6 +189,10 @@
                         <Sequence>
                             <Action_ApplyDescriptor LogAction="true">
                                 <Input_DescriptorName VarName="$Effect"/>
+                                <Input_Targets VarName="$CurrentEmpire"/>
+                            </Action_ApplyDescriptor>
+                            <Action_ApplyDescriptor LogAction="true">
+                                <Input_DescriptorName VarName="$Effect2"/>
                                 <Input_Targets VarName="$CurrentEmpire"/>
                             </Action_ApplyDescriptor>
                         </Sequence>
