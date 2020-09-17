@@ -3,7 +3,7 @@
     <QuestDefinition Name="QuestIdrinthEmpireTraitCraverAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
         <Tags>Hidden,BeginTurn</Tags>
         <QuestContextSolo/>
-        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <RepetitionRules NumberOfOccurrencesPerEmpire="1"/>
         <Vars>
             <Var VarName="$CurrentEmpire">
                 <From Source="$Empire"/>
@@ -31,7 +31,7 @@
     <QuestDefinition Name="QuestIdrinthEmpireTraitSophonsAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
         <Tags>Hidden,BeginTurn</Tags>
         <QuestContextSolo/>
-        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <RepetitionRules NumberOfOccurrencesPerEmpire="1"/>
         <Vars>
             <Var VarName="$CurrentEmpire">
                 <From Source="$Empire"/>
@@ -59,7 +59,7 @@
     <QuestDefinition Name="QuestIdrinthEmpireTraitTerransAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
         <Tags>Hidden,BeginTurn</Tags>
         <QuestContextSolo/>
-        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <RepetitionRules NumberOfOccurrencesPerEmpire="1"/>
         <Vars>
             <Var VarName="$CurrentEmpire">
                 <From Source="$Empire"/>
@@ -87,7 +87,7 @@
     <QuestDefinition Name="QuestIdrinthEmpireTraitHoratioAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
         <Tags>Hidden,BeginTurn</Tags>
         <QuestContextSolo/>
-        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <RepetitionRules NumberOfOccurrencesPerEmpire="1"/>
         <Vars>
             <Var VarName="$CurrentEmpire">
                 <From Source="$Empire"/>
@@ -115,7 +115,7 @@
     <QuestDefinition Name="QuestIdrinthEmpireTraitVampirilisAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
         <Tags>Hidden,BeginTurn</Tags>
         <QuestContextSolo/>
-        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <RepetitionRules NumberOfOccurrencesPerEmpire="1"/>
         <Vars>
             <Var VarName="$CurrentEmpire">
                 <From Source="$Empire"/>
@@ -143,7 +143,7 @@
     <QuestDefinition Name="QuestIdrinthEmpireTraitVenetiansAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
         <Tags>Hidden,BeginTurn</Tags>
         <QuestContextSolo/>
-        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <RepetitionRules NumberOfOccurrencesPerEmpire="1"/>
         <Vars>
             <Var VarName="$CurrentEmpire">
                 <From Source="$Empire"/>
@@ -171,7 +171,7 @@
     <QuestDefinition Name="QuestIdrinthEmpireTraitTimeLordsAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
         <Tags>Hidden,BeginTurn</Tags>
         <QuestContextSolo/>
-        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <RepetitionRules NumberOfOccurrencesPerEmpire="1"/>
         <Vars>
             <Var VarName="$CurrentEmpire">
                 <From Source="$Empire"/>
@@ -204,7 +204,7 @@
     <QuestDefinition Name="QuestIdrinthEmpireTraitUnfallenAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
         <Tags>Hidden,BeginTurn</Tags>
         <QuestContextSolo/>
-        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <RepetitionRules NumberOfOccurrencesPerEmpire="1"/>
         <Vars>
             <Var VarName="$CurrentEmpire">
                 <From Source="$Empire"/>
@@ -232,7 +232,7 @@
     <QuestDefinition Name="QuestIdrinthEmpireTraitVaultersAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
         <Tags>Hidden,BeginTurn</Tags>
         <QuestContextSolo/>
-        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <RepetitionRules NumberOfOccurrencesPerEmpire="1"/>
         <Vars>
             <Var VarName="$CurrentEmpire">
                 <From Source="$Empire"/>
@@ -260,7 +260,7 @@
     <QuestDefinition Name="QuestIdrinthEmpireTraitMajorHisshosAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
         <Tags>Hidden,BeginTurn</Tags>
         <QuestContextSolo/>
-        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <RepetitionRules NumberOfOccurrencesPerEmpire="1"/>
         <Vars>
             <Var VarName="$CurrentEmpire">
                 <From Source="$Empire"/>
@@ -288,7 +288,7 @@
     <QuestDefinition Name="QuestIdrinthEmpireTraitUmbralChoirAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
         <Tags>Hidden,BeginTurn</Tags>
         <QuestContextSolo/>
-        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <RepetitionRules NumberOfOccurrencesPerEmpire="1"/>
         <Vars>
             <Var VarName="$CurrentEmpire">
                 <From Source="$Empire"/>
@@ -316,7 +316,7 @@
     <QuestDefinition Name="QuestIdrinthEmpireTraitTemplarsAffinity" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="GroundCombat">
         <Tags>Hidden,BeginTurn</Tags>
         <QuestContextSolo/>
-        <RepetitionRules NumberOfOccurrencesPerPlayer="1"/>
+        <RepetitionRules NumberOfOccurrencesPerEmpire="1"/>
         <Vars>
             <Var VarName="$CurrentEmpire">
                 <From Source="$Empire"/>
